@@ -1,0 +1,6 @@
+{
+  "name": "모아잡 (MoaJob)",
+  "description": "사람인, 잡코리아, 원티드 등 여러 플랫폼의 채용공고를 통합 수집하고, AI 기반 중복 공고 정제 알고리즘으로 깨끗하게 모아주는 취업준비 필수 애그리게이터 데스크톱/모바일 앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,12 +1,21 @@
-# career-job-tracker
-개인 취업 준비를 위한 채용공고 수집, 필터링, 북마크 및 지원 관리 Android 앱
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-# Career Job Tracker
+# Run and deploy your AI Studio app
 
-This is a personal Android app project for career preparation.
+This contains everything you need to run your app locally.
 
-The app is designed to collect and manage job postings from recruitment platforms such as Saramin and Worknet.  
-Main features include job posting search, bookmarking, deadline management, application status tracking, duplicate filtering, and personal memo management.
+View your app in AI Studio: https://ai.studio/apps/cae36fab-3fd6-46ff-9c67-e0a985e83356
 
-The Saramin Open API will be used only for personal career preparation and portfolio development purposes.  
-Collected job posting data will not be resold or used for commercial services.
+## Run Locally
+
+**Prerequisites:**  [Android Studio](https://developer.android.com/studio)
+
+
+1. Open Android Studio
+2. Select **Open** and choose the directory containing this project
+3. Allow Android Studio to fix any incompatibilities as it imports the project.
+4. Create a file named `.env` in the project directory and set `GEMINI_API_KEY` in that file to your Gemini API key (see `.env.example` for an example)
+5. Remove this line from the app's `build.gradle.kts` file: `signingConfig = signingConfigs.getByName("debugConfig")`
+6. Run the app on an emulator or physical device
